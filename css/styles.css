@@ -1,0 +1,18 @@
+body {
+  font-family: Arial;
+  width: 66%;
+  margin-left: 16.5%;
+}
+
+#sidebar {
+  float: left;
+  padding-right: 30px;
+  width: 33%;
+}
+
+#content {
+}
+
+h1 {
+  text-align: center;
+}
