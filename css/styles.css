@@ -1,8 +1,16 @@
-body {
-  font-family: Arial;
-  width: 66%;
-  margin-left: 16.5%;
+@media screen {
+  body {
+    font-family: Arial;
+    width: 66%;
+    margin-left: 16.5%;
+  }
 }
+
+@media handheld {
+  body {
+    font-family: Arial;
+  }
+} 
 
 #sidebar {
   float: left;
