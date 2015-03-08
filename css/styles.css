@@ -1,8 +1,7 @@
 body {
     font-family: Arial;
-    width: 66%;
     margin-left: 16.5%;
-    width: 66%;
+    margin-right: 16.5%;
 }
 
 #desktopnotice {
@@ -23,14 +22,15 @@ body {
   }
 }
  
- 
 #sidebar {
+  margin-top: 5%;
   float: left;
-  padding-right: 30px;
-  width: 33%;
+  width: 20%;
 }
  
 #content {
+  float: right;
+  width: 79%;
 }
  
 h1 {
