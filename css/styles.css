@@ -1,26 +1,38 @@
-@media screen {
-  body {
+body {
     font-family: Arial;
     width: 66%;
     margin-left: 16.5%;
-  }
+    width: 66%;
 }
 
-@media handheld {
-  body {
-    font-family: Arial;
+#desktopnotice {
+  display: block;
+}
+  
+#mobilenotice {
+  display: none;
+}
+ 
+@media screen and (max-device-width: 480px) {
+  #desktopnotice {
+    display: none;
   }
-} 
-
+  
+  #mobilenotice {
+    display: block;
+  }
+}
+ 
+ 
 #sidebar {
   float: left;
   padding-right: 30px;
   width: 33%;
 }
-
+ 
 #content {
 }
-
+ 
 h1 {
   text-align: center;
 }
