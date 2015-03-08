@@ -28,6 +28,7 @@ body {
   width: 20%;
   border: 2px solid;
   border-radius: 15px;
+  background-color: lightgray;
 }
  
 #content {
@@ -39,4 +40,5 @@ h1 {
   text-align: center;
   border: 2px solid;
   border-radius: 15px;
+  background-color: lightgray;
 }
