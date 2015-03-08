@@ -26,6 +26,8 @@ body {
   margin-top: 5%;
   float: left;
   width: 20%;
+  border: 2px solid;
+  border-radius: 15px;
 }
  
 #content {
@@ -35,4 +37,6 @@ body {
  
 h1 {
   text-align: center;
+  border: 2px solid;
+  border-radius: 15px;
 }
