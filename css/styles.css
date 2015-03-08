@@ -1,7 +1,9 @@
 body {
-    font-family: Arial;
-    margin-left: 16.5%;
-    margin-right: 16.5%;
+  font-family: Arial;
+  width: 33%;
+  margin-left: 33%;
+  margin-right: 33%;
+  font-size: 200%;
 }
 
 #desktopnotice {
@@ -20,20 +22,23 @@ body {
   #mobilenotice {
     display: block;
   }
+
+  body { 
+    font-family: Arial;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 100%;
+  }
 }
  
 #sidebar {
-  margin-top: 5%;
-  float: left;
-  width: 20%;
   border: 2px solid;
   border-radius: 15px;
   background-color: lightgray;
 }
  
 #content {
-  float: right;
-  width: 79%;
 }
  
 h1 {
