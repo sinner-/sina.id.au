@@ -6,6 +6,15 @@ body {
   font-size: 200%;
 }
 
+a:visited {
+    color: blue
+}
+
+a:hover {
+    background-color: darkgray;
+}
+
+
 #desktopnotice {
   display: block;
 }
